@@ -41,7 +41,7 @@ You can run the script with 2 commands availibale:
 
 # Dependencies
 
-I use SQLAlchemy Core + Psycopg2 to execute raw SQL expressions in use script. So please install them:
+I use SQLAlchemy Core + Psycopg2 to execute raw SQL expressions in the script. So please install them:
 `pip install SQLAlchemy psycopg2`
 
 
