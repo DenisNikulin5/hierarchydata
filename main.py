@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.sql import text
 
 #Configs
-engine = create_engine("postgresql+psycopg2://user:passwordlocalhost/mydb") #Don't forget to change connection string
+engine = create_engine("postgresql+psycopg2://user:password@localhost/mydb") #Don't forget to change connection string
 
 #Const
 OFFICE_TYPE = 1
